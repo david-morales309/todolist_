@@ -1,86 +1,97 @@
-Frontend Todo List
+📝 Todo List
 
-Aplicación de lista de tareas desarrollada con HTML, CSS y JavaScript. Este repositorio contiene únicamente la parte frontend de una pequeña app pensada para organizar actividades y pendientes.
+Aplicación de lista de tareas desarrollada con HTML, CSS y JavaScript.
+Este repositorio contiene únicamente la parte frontend de una pequeña app pensada para organizar actividades y pendientes.
 
-Índice
+.📚 Tabla de Contenidos
 
-Introducción
+.Introducción
 
-Instalación
+.Instalación
 
-Cómo usarla
+.Cómo usarla
 
-Funcionalidades
+.Funcionalidades
 
-Organización del proyecto
+.Organización del proyecto
 
-Tecnologías utilizadas
+.Tecnologías utilizadas
 
-Cómo contribuir
+.Cómo contribuir
 
-Licencia
+.Licencia
 
-Contacto
+.Contacto
 
-Introducción
+📌 Introducción
 
 Este proyecto corresponde a una to-do list simple en la que es posible:
 
-Crear nuevas tareas
+➕ Crear nuevas tareas
 
-Marcar tareas como finalizadas
+✔️ Marcar tareas como finalizadas
 
-Borrar elementos
+🗑️ Borrar elementos
 
-(Opcional) Editar y filtrar tareas
+✏️ (Opcional) Editar tareas
 
-(Opcional) Guardar el estado en localStorage
+🔍 (Opcional) Filtrar tareas
 
-Si tu implementación difiere en algo, puedo ajustar esta sección para que coincida exactamente con tu código.
+💾 (Opcional) Guardar el estado mediante localStorage
 
-Instalación
+Si tu implementación tiene más o menos funciones, puedo ajustar este apartado para que coincida exactamente con tu código.
+
+🛠️ Instalación
 
 Clona el repositorio desde GitHub:
 
 git clone https://github.com/david-morales309
 
+
 Accede a la carpeta del proyecto:
 
 cd Todo_list
 
-Abre el archivo index.html en tu navegador o usa una herramienta como Live Server (VS Code) para ejecutarlo localmente.
 
-Cómo usarla
+Abre el archivo index.html en tu navegador, o utiliza una herramienta como Live Server (VS Code) para ejecutarlo localmente.
 
-Escribe el texto de la tarea en el input y presiona Enter o el botón para añadirla.
+▶️ Cómo usarla
 
-Marca una tarea como completada para tacharla.
+Escribe el texto de la tarea en el campo correspondiente.
 
-Elimina cualquier elemento con el icono correspondiente.
+Presiona Enter o haz clic en el botón Agregar.
 
-Funcionalidades (recomendadas)
+Marca tareas como completadas para tacharlas.
 
-Diseño limpio y adaptable
+Elimina elementos con el icono correspondiente.
 
-Código en JavaScript puro (sin frameworks externos)
+⭐ Funcionalidades
 
-Estilos construidos con CSS básico
+Diseño limpio, minimalista y adaptable.
 
-Opcionalmente, persistencia de datos mediante localStorage
+Interfaz construida con JavaScript puro (sin frameworks).
 
-Organización del proyecto
+Estilos aplicados con CSS básico.
 
-index.html — Archivo principal de la app
+(Opcional) Persistencia de datos mediante localStorage.
 
-css/ — Archivos de estilos (si corresponde)
+Código sencillo y fácil de mantener.
 
-js/ — Código JavaScript (si aplica)
+📂 Organización del proyecto
+📁 Proyecto Todo List
+│── index.html        # Archivo principal
+│── README.md         # Documento actual
+│
+├── css/
+│   └── estilos.css   # Archivo(s) de estilos (si aplica)
+│
+└── js/
+    └── app.js        # Lógica en JavaScript (si aplica)
 
-README.md — Documento actual
 
-Si la distribución real de archivos es distinta, puedo modificar esta parte.
+Si tu estructura real es distinta, puedo ajustarla.
 
-Tecnologías utilizadas
+🧩 Tecnologías utilizadas
 
 HTML
 
@@ -88,11 +99,9 @@ CSS
 
 JavaScript
 
-(Aproximadamente: 44.5% JavaScript, 41.4% CSS y 14.1% HTML.)
+(Distribución aproximada del código: 44.5% JS, 41.4% CSS, 14.1% HTML.)
 
-Cómo contribuir
-
-Si deseas aportar al proyecto:
+🤝 Cómo contribuir
 
 Realiza un fork del repositorio.
 
@@ -100,16 +109,19 @@ Crea una nueva rama:
 
 git checkout -b feature/mi-aporte
 
+
 Guarda los cambios:
 
 git commit -m "Descripción del aporte"
 
-Sube la rama y abre un pull request.
 
-Licencia
+Sube tu rama y abre un pull request.
 
-El proyecto puede distribuirse bajo la licencia MIT. Si quieres aplicar otra licencia, indícamelo y la actualizo sin problema.
+📄 Licencia
 
-Contacto
+Este proyecto está distribuido bajo la licencia MIT.
+Si deseas cambiar la licencia, puedo actualizar esta sección sin problema.
 
-Si necesitas que documente funciones, carpetas adicionales o detalles específicos del repositorio, solo dime qué quieres que incluya y adaptaré el README a tu proyecto.
+📬 Contacto
+
+Si deseas que documente funciones del código, carpetas adicionales o detalles más técnicos del proyecto, solo dímelo y actualizaré el README para que quede 100% acorde a tu implementación.
