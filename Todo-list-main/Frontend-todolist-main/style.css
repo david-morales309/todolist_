@@ -1,0 +1,120 @@
+/* === Estilo General Moderno (Glass + Pastel) === */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #9c27b0, #ff6f91);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* === Contenedor principal === */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 520px;
+    margin-top: 60px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #ffe9ff;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* === Input y Botón === */
+.input-group {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#input-task {
+    flex-grow: 1;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.input-group button {
+    background: #ffca28;
+    color: #000;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.input-group button:hover {
+    background: #ffb300;
+}
+
+/* === Lista de tareas === */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.task-list li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* === Tarea completada === */
+.completed {
+    text-decoration: line-through;
+    color: #e4e4e4;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* === Botones dentro de cada tarea === */
+.task-actions button {
+    border: none;
+    padding: 7px 12px;
+    margin-left: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.task-actions button:nth-child(1) { /* Completar */
+    background-color: #4caf50;
+}
+
+.task-actions button:nth-child(2) { /* Eliminar */
+    background-color: #e53935;
+}
+
+.task-actions button:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
