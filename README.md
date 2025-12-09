@@ -89,7 +89,6 @@ Código sencillo y fácil de mantener.
     └── app.js        # Lógica en JavaScript (si aplica)
 
 
-Si tu estructura real es distinta, puedo ajustarla.
 
 🧩 Tecnologías utilizadas
 
